@@ -277,3 +277,26 @@ hr{
 }
 
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
+
+/* -----------GAUTAM CODE STARTS HERE-------------------- */
+.pharmacy{
+    width:80vw;
+    height:50vh;
+    margin-left: 80px;
+   outline:  3px solid black;
+  }
+  .pharmacy h2{
+    font-size: 20px;
+    color:brown;
+  }
+  .container-pharmacy{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+ .img img{
+    width: 35vw;
+    height:40vh;
+ } 
+
+ /* -----------------GAUTAM CODE ENDS HERE--------------------- */
