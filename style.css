@@ -574,4 +574,34 @@ hr{
   
  /* -----------------SARULATHA CODE ENDS HERE--------------------- */
 
+ /* -----------------SWETHA CODE STARTS HERE--------------------- */
+ .background{
+
+  
+  width:80%;
+  height: 80%;
+  border: 1px solid black;
+  margin-left: 20px;
+
+   display: grid;
+  grid-template-columns: auto auto;
+
+}
+.text{
+
+  margin-top: 35%;
+  margin-left:2%;
+}
+.image img{
+
+  width: 650px;
+  height: 450px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+
+ /* -----------------SWETHA CODE ENDS HERE--------------------- */
+
+
 
