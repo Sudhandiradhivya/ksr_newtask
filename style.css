@@ -377,6 +377,10 @@ P{
     overflow-x: hidden;
     border: 0.2rem solid var(--buttonBackground);
     margin:2rem;
+<<<<<<< HEAD
+    /* position: absolute; */
+=======
+>>>>>>> origin/main
 }
 
 hr{
@@ -586,6 +590,39 @@ hr{
   border: 2px solid black;
 }
 
+<<<<<<< HEAD
+/* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
+/* Hemalatha code starts here*/
+.grocery-container{
+    padding: 10px;
+    border: 2px solid rgb(106, 159, 220);
+    margin: 10px auto;
+    width: fit-content;
+    display: flex;
+  }
+  .grocery-heading{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .home-cont1 {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(25, 2, 94, 0.644);
+  }
+  .home-cont2 {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #dd5e89;
+  }
+  .home-cont3 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(25, 2, 94, 0.644);
+  }
+  /* Hemaltha code ends here */
+=======
 .projectTask h2 {
   font-size: 1.8rem;
   color: #555;
@@ -675,3 +712,4 @@ hr{
 
 
 
+>>>>>>> origin/main
