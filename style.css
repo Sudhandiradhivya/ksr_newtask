@@ -574,6 +574,75 @@ hr{
   
  /* -----------------SARULATHA CODE ENDS HERE--------------------- */
 
+ /* ----- GANESH DESIGN STARTS HERE -----*/
+
+  
+
+  
+.projectTask {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border: 2px solid black;
+}
+
+.projectTask h2 {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.abstractTask p {
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  
+}
+
+.abstractTask h3 {
+  
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+.gridTask {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gridTask img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.projectTask h2:last-child {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #555;
+}
+.projectTask h2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ssDivTask h3{
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.ftrDivTask h4{
+  margin-left: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* ----- GANESH DESIGN ENDS HERE -----*/
+
+
  /* -----------------SWETHA CODE STARTS HERE--------------------- */
  .background{
 
@@ -602,6 +671,7 @@ hr{
 }
 
  /* -----------------SWETHA CODE ENDS HERE--------------------- */
+
 
 
 
