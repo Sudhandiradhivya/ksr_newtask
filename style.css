@@ -57,6 +57,51 @@
     margin-left: 350px;
   }
   /* ----- Sree Ganesh DESIGN ENDS HERE -----*/
+
+ /*------Manya styles starts here-------*/
+.border{
+  border:2px solid rgb(43, 39, 39);
+  margin:3em;
+}
+.laptop-heading{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;  
+}
+.aboutLaptop {
+  margin:7rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  justify-items: center;
+}
+.aboutLaptop p,h1{
+  font-family: 'Amiri', serif;
+}
+.aboutLaptop p{
+  padding-top: 8px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: justify;
+}
+.shop-by-brand{
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap:2rem;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.brand-logo{
+  width: 250px;
+  height: 200px;
+  background-color:snow;
+  border-radius: 15px;
+  box-shadow:0px 0px 5px 2px  rgb(110, 128, 133);
+  text-align: center;
+}
+/*-------End---------*/
 /* DHIVYA CODE STARTS  */
 .container {
     border: .1rem solid black;
@@ -85,11 +130,10 @@
     width: 15rem;
 }
 
-P{
+p{
     margin-left: 50px;
     margin-top: 20px;
     font-size: 18px;
-    font-weight: bold;
 }
 
  .image-container span{
@@ -377,10 +421,7 @@ P{
     overflow-x: hidden;
     border: 0.2rem solid var(--buttonBackground);
     margin:2rem;
-<<<<<<< HEAD
     /* position: absolute; */
-=======
->>>>>>> origin/main
 }
 
 hr{
@@ -590,7 +631,6 @@ hr{
   border: 2px solid black;
 }
 
-<<<<<<< HEAD
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
 /* Hemalatha code starts here*/
 .grocery-container{
@@ -622,7 +662,6 @@ hr{
     color: rgba(25, 2, 94, 0.644);
   }
   /* Hemaltha code ends here */
-=======
 .projectTask h2 {
   font-size: 1.8rem;
   color: #555;
@@ -712,4 +751,3 @@ hr{
 
 
 
->>>>>>> origin/main
