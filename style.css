@@ -1,497 +1,496 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .title {
-    text-align: center;
-    background-color: #fafad2;
-    padding: 1rem;
-    letter-spacing: .2rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  background-color: #fafad2;
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 /* ----- Sree Ganesh DESIGN Starts HERE -----*/
-.title-obs h1,.title-obs{
-    text-align: center;
-    background-color: rgb(175, 230, 234);
-    padding: 10px;
-  }
-  .obs-content{
-    border: 3px solid black;
-    margin: 30px;
-    
-  }
-  .imageOFBooks img{
-    height: 520px;
-    width: 300px;
-    padding: 10px;
-  }
-  .bookDetails h3{
-    padding-top: 20px;
-    font-size: large;
-    font-style: normal;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-family:cursive;
-    padding-bottom: 30px;
-  }
-  .imageOFBooks{
-    display: flex;
-  }
-  .bookTitle p{
-    padding: 10px;
-    text-align: center;
-    font-size:30px;
-    font-family: cursive;
-  }
-  .table{
-    text-align:left;
-    padding: 6px;
-    font-family: cursive;
-  }
-  .purseDetail img{
-    width: 700px;
-    height: 100px;
-    padding-left:25px;
-    margin-left: 350px;
-  }
-  /* ----- Sree Ganesh DESIGN ENDS HERE -----*/
+.title-obs h1,
+.title-obs {
+  text-align: center;
+  background-color: rgb(175, 230, 234);
+  padding: 10px;
+}
+.obs-content {
+  border: 3px solid black;
+  margin: 30px;
+}
+.imageOFBooks img {
+  height: 520px;
+  width: 300px;
+  padding: 10px;
+}
+.bookDetails h3 {
+  padding-top: 20px;
+  font-size: large;
+  font-style: normal;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: cursive;
+  padding-bottom: 30px;
+}
+.imageOFBooks {
+  display: flex;
+}
+.bookTitle p {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+.table {
+  text-align: left;
+  padding: 6px;
+  font-family: cursive;
+}
+.purseDetail img {
+  width: 700px;
+  height: 100px;
+  padding-left: 25px;
+  margin-left: 350px;
+}
+/* ----- Sree Ganesh DESIGN ENDS HERE -----*/
+
 /* DHIVYA CODE STARTS  */
 .container {
-    border: .1rem solid black;
-    padding: 1rem;
-    margin: 1em auto;
-    width: fit-content;
+  border: 0.1rem solid black;
+  padding: 1rem;
+  margin: 1em auto;
+  width: fit-content;
 }
 
 .heading {
-    background-color: aliceblue;
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-align: center;
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .image-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
 }
 
 .segments {
-    position: relative;
-    height: 15rem;
-    width: 15rem;
+  position: relative;
+  height: 15rem;
+  width: 15rem;
 }
 
-P{
-    margin-left: 50px;
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
+.content P {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
- .image-container span{
-    margin-left: 50px;
-    padding: 20px;
-    cursor: pointer;
+.image-container span {
+  margin-left: 50px;
+  padding: 20px;
+  cursor: pointer;
 }
 /* DHIVYA CODE ENDS  */
 
 /* ---------Manikandan S Code */
 
-.box{
-    width: 60%;
-    height: 200px;
-    margin:auto;
-    border: 2px solid black;
-  }
-  .box h2{
-    text-align: center;
-  }
-  .box h3{
-    text-align: center;
-  }
-  .div{
-    padding: 25px;
-  }
+.box {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+  border: 2px solid black;
+}
+.box h2 {
+  text-align: center;
+}
+.box h3 {
+  text-align: center;
+}
+.div {
+  padding: 25px;
+}
 
-  /* --------END */
+/* --------END */
 
-
-  /* ----------- DINESH STYLING SECTION STARTS HERE ----------- */
-
-  :root {
-    --green: #179595;
-    --heading : #969f20;
-    --light-green: #c1f3f3;
-    --border: 0.1rem solid var(--green);
-    --white: #fff;
-    --box-shadow : 8px 6px 18px #888888;
-  }
-  
-  .dk-container {
-    background-color: var(--light-green);
-    border: var(--border);
-    padding: 1rem;
-    margin: 1rem auto;
-    width: 80%;
-  }
-  
-  .dk-heading {
-    background-color: var(--white);
-    font-size: 1.5rem;
-    padding: 1rem;
-    letter-spacing: 0.3rem;
-    text-align: center;
-    border: var(--border);
-    margin-bottom: 1rem;
-    animation: 5s smart infinite;
-  }
-  
-  .dk-content-heading {
-    color: var(--heading);
-    font-weight: 600;
-    font-size: 1.5rem;
-    text-decoration: underline;
-  }
-  
-  .dk-content-container {
-    border-bottom: var(--border);
-    margin-bottom: 2rem;
-  }
-  
-  .dk-content-description li {
-    font-size: 1.2rem;
-    list-style: inside;
-    line-height: 2rem;
-  }
-  
-  .dk-buttons {
-    width: 100%;
-    margin: 1rem;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  
-  .dk-btn {
-    border: var(--border);
-    padding: 0.8rem 1rem;
-    text-decoration: none;
-    color: var(--green);
-    letter-spacing: .1rem;
-    background-color: var(--white);
-    font-size: 1rem;
-  }
-  
-  .dk-btn:hover {
-    color: var(--white);
-    background-color: var(--green);
-  }
-  
-  .dk-subtitle {
-    font-size: 1.5rem;
-    color: var(--green);
-    border: var(--border);
-    background-color: var(--white);
-    margin: 1rem auto;
-    text-align: center;
-    padding: .6rem;
-    border-radius: 5rem;
-    width: 40%;
-  }
-  
-  .dk-image-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    width: 70%;
-    margin: 0px 8%;
-    margin-bottom: 3rem;
-  }
-  
-  .dk-segments {
-    position: relative;
-    height: 15rem;
-    width: 20rem;
-    border: var(--border);
-    box-shadow: var(--box-shadow);
-  }
-  
-  .dk-segments img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .dk-segments:hover img {
-    transform: scale(0.95);
-  }
-  
-  @keyframes smart {
-    0% {color: maroon;}
-  
-    25% {color: green;}
-  
-    50% {color: orangered;}
-  
-    75% {color: yellowgreen;}
-  
-    100% {color: darkorchid;}
-  }
-  
-  /* ----------- DINESH STYLING SECTION ENDS HERE ----------- */
-
-
-  /*------------------------- VIGNESH CODE STARTS HERE ---------------------------*/
-
-.box1{
-    border: .1rem solid black;
-    padding: 1rem;
-    margin: 1em auto;
-  }
-  .topic{
-    background-color: teal;
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .register {
-    width: 400px;
-    padding: 30px 30px 50px 30px;
-    background:darkcyan;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
-    /* height: 530px; */
-    margin: auto;
-  }
-  .register form i{
-    margin-left: 15px;
-  }
-  .register header {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-  
-  /* .register form {
-    margin: 40px 0;
-  } */
-  
-  form .field {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-  
-  form .field .input-area {
-    height: 50px;
-    width: 100%;
-    position: relative;
-  }
-  
-  form input {
-    width: 70%;
-    height: 100%;
-    outline: none;
-    padding: 0 45px;
-    font-size: 18px;
-    background: none;
-    caret-color: #5372F0;
-    border-radius: 5px;
-    border: 1px solid #bfbfbf;
-    border-bottom-width: 2px;
-    transition: all 0.2s ease;
-    margin-bottom: 20px;
-  }
-  
-  form .field input:focus,
-  form .field.valid input {
-    border-color: #5372F0;
-  }
-  
-  
-  .field .input-area i {
-    position: absolute;
-    top: 50%;
-    font-size: 18px;
-    pointer-events: none;
-    transform: translateY(-50%);
-  }
-  
-  .input-area .icon {
-    left: 15px;
-    color: #bfbfbf;
-    transition: color 0.2s ease;
-  }
-  
-  
-  form input:focus~.icon,
-  form .field.valid .icon {
-    color: #5372F0;
-  }
-  
-  
-  
-  form input::placeholder {
-    color: #bfbfbf;
-    font-size: 17px;
-  }
-  
-  button{
-    height: 50px;
-    /* margin-top: 30px; */
-    color: #fff;
-    padding: 0;
-    border: none;
-    background: #5372F0;
-    cursor: pointer;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    width: 300px;
-  }
-  
-  /*------------------------- VIGNESH CODE ENDS HERE ---------------------------*/
-  
-
-
-  /* ---------------------------- KIRAN CODE STARTS HERE ------------------------- */
+/* ----------- DINESH STYLING SECTION STARTS HERE ----------- */
 
 :root {
-    --buttonBackground: rgb(29, 106, 193);
-    --white: rgb(255, 255, 255);
-    --head: rgb(191, 53, 53);
+  --green: #179595;
+  --heading: #969f20;
+  --light-green: #c1f3f3;
+  --border: 0.1rem solid var(--green);
+  --white: #fff;
+  --box-shadow: 8px 6px 18px #888888;
+}
+
+.dk-container {
+  background-color: var(--light-green);
+  border: var(--border);
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.dk-heading {
+  background-color: var(--white);
+  font-size: 1.5rem;
+  padding: 1rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  border: var(--border);
+  margin-bottom: 1rem;
+  animation: 5s smart infinite;
+}
+
+.dk-content-heading {
+  color: var(--heading);
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.dk-content-container {
+  border-bottom: var(--border);
+  margin-bottom: 2rem;
+}
+
+.dk-content-description li {
+  font-size: 1.2rem;
+  list-style: inside;
+  line-height: 2rem;
+}
+
+.dk-buttons {
+  width: 100%;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dk-btn {
+  border: var(--border);
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: var(--green);
+  letter-spacing: 0.1rem;
+  background-color: var(--white);
+  font-size: 1rem;
+}
+
+.dk-btn:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.dk-subtitle {
+  font-size: 1.5rem;
+  color: var(--green);
+  border: var(--border);
+  background-color: var(--white);
+  margin: 1rem auto;
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 5rem;
+  width: 40%;
+}
+
+.dk-image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  width: 70%;
+  margin: 0px 8%;
+  margin-bottom: 3rem;
+}
+
+.dk-segments {
+  position: relative;
+  height: 15rem;
+  width: 20rem;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
+
+.dk-segments img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dk-segments:hover img {
+  transform: scale(0.95);
+}
+
+@keyframes smart {
+  0% {
+    color: maroon;
+  }
+
+  25% {
+    color: green;
+  }
+
+  50% {
+    color: orangered;
+  }
+
+  75% {
+    color: yellowgreen;
+  }
+
+  100% {
+    color: darkorchid;
+  }
+}
+
+/* ----------- DINESH STYLING SECTION ENDS HERE ----------- */
+
+/*------------------------- VIGNESH CODE STARTS HERE ---------------------------*/
+
+.box1 {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  margin: 1em auto;
+}
+.topic {
+  background-color: teal;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.register {
+  width: 400px;
+  padding: 30px 30px 50px 30px;
+  background: darkcyan;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  /* height: 530px; */
+  margin: auto;
+}
+.register form i {
+  margin-left: 15px;
+}
+.register header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* .register form {
+    margin: 40px 0;
+  } */
+
+form .field {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form .field .input-area {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+form input {
+  width: 70%;
+  height: 100%;
+  outline: none;
+  padding: 0 45px;
+  font-size: 18px;
+  background: none;
+  caret-color: #5372f0;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  border-bottom-width: 2px;
+  transition: all 0.2s ease;
+  margin-bottom: 20px;
+}
+
+form .field input:focus,
+form .field.valid input {
+  border-color: #5372f0;
+}
+
+.field .input-area i {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.input-area .icon {
+  left: 15px;
+  color: #bfbfbf;
+  transition: color 0.2s ease;
+}
+
+form input:focus ~ .icon,
+form .field.valid .icon {
+  color: #5372f0;
+}
+
+form input::placeholder {
+  color: #bfbfbf;
+  font-size: 17px;
+}
+
+button {
+  height: 50px;
+  /* margin-top: 30px; */
+  color: #fff;
+  padding: 0;
+  border: none;
+  background: #5372f0;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 300px;
+}
+
+/*------------------------- VIGNESH CODE ENDS HERE ---------------------------*/
+
+/* ---------------------------- KIRAN CODE STARTS HERE ------------------------- */
+
+:root {
+  --buttonBackground: rgb(29, 106, 193);
+  --white: rgb(255, 255, 255);
+  --head: rgb(191, 53, 53);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root{
-    --buttonBackground : rgb(35, 6, 124);
+  :root {
+    --buttonBackground: rgb(35, 6, 124);
     --head: rgb(222, 8, 8);
   }
 }
 
 #mainSection {
-    padding: 2rem 0;
-    overflow-x: hidden;
-    border: 0.2rem solid var(--buttonBackground);
-    margin:2rem;
-<<<<<<< HEAD
-    /* position: absolute; */
-=======
->>>>>>> origin/main
+  padding: 2rem 0;
+  overflow-x: hidden;
+  border: 0.2rem solid var(--buttonBackground);
+  margin: 2rem;
 }
 
-hr{
-    color: var(--buttonBackground);
+hr {
+  color: var(--buttonBackground);
 }
 
 .containerSection {
-    max-width: 140rem;
+  max-width: 140rem;
 }
 
 .mainHeader {
-    padding: 2rem 3rem;
+  padding: 2rem 3rem;
 }
 
-#mainSection span, .description span {
-    color: var(--head);
-    font-weight: 900;
+#mainSection span,
+.description span {
+  color: var(--head);
+  font-weight: 900;
 }
 
-#mainSection .mainHeader{
-    color: var(--buttonBackground);
+#mainSection .mainHeader {
+  color: var(--buttonBackground);
 }
 
 /* Registration Data section */
 
-.dataSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    height: 15rem;
-    display: grid;
-    grid-template-columns: 20% 30% 20% 30%;
+.dataSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  height: 15rem;
+  display: grid;
+  grid-template-columns: 20% 30% 20% 30%;
 }
 
-.mainSection{
-    width:100%;
-    height: 100%;
-    position: relative;
-    padding: 0 2rem;
+.mainSection {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0 2rem;
 }
 
-.description{
-    font-weight: 900;
-    color: var(--buttonBackground);
-    font-size: 1.1rem;
+.description {
+  font-weight: 900;
+  color: var(--buttonBackground);
+  font-size: 1.1rem;
 }
 
-.mainSection img{
-    width: 10rem;
+.mainSection img {
+  width: 10rem;
 }
 
 /* Category section */
 
-.categorySection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    height: 20rem;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    padding: 0 2rem;
+.categorySection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 0 2rem;
 }
 
-.categorySection img{
-    width: 100%;
-    height: 18rem;
+.categorySection img {
+  width: 100%;
+  height: 18rem;
 }
 
-.categorySection .description p{
-    text-align: left;
-    padding: 1.2rem 0;
-    font-size: 1.2rem;
+.categorySection .description p {
+  text-align: left;
+  padding: 1.2rem 0;
+  font-size: 1.2rem;
 }
-
 
 /* Order section */
 
-.orderSection{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-bottom: 1rem;
+.orderSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
 }
 
-.orderSection .orderImage img{
-    width: 100%;
-    height: 15rem;
+.orderSection .orderImage img {
+  width: 100%;
+  height: 15rem;
 }
 
-.orderSection .orderImage{
-    border-right: 0.1rem solid var(--buttonBackground) ;
+.orderSection .orderImage {
+  border-right: 0.1rem solid var(--buttonBackground);
 }
 
-.orderDescription  {
-    display: flex;
-    justify-content: center;
+.orderDescription {
+  display: flex;
+  justify-content: center;
 }
 
-.overviewData{
-    margin: 0 2rem;
+.overviewData {
+  margin: 0 2rem;
 }
 
-.overviewData ul li{
-    padding: 1.6rem 0;
-    font-size: 1.2rem;
+.overviewData ul li {
+  padding: 1.6rem 0;
+  font-size: 1.2rem;
 }
 
-#endDetails{
-    display: flex;
-    justify-content: end;
+#endDetails {
+  display: flex;
+  justify-content: end;
 }
 
 #scrollToTop {
@@ -515,74 +514,72 @@ hr{
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
 
 /* -----------GAUTAM CODE STARTS HERE-------------------- */
-.pharmacy{
-    width:80vw;
-    height:50vh;
-    margin-left: 80px;
-   outline:  3px solid black;
-  }
-  .pharmacy h2{
-    font-size: 20px;
-    color:brown;
-  }
-  .container-pharmacy{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-  }
- .img img{
-    width: 35vw;
-    height:40vh;
- } 
+.pharmacy {
+  width: 80vw;
+  height: 50vh;
+  margin-left: 80px;
+  outline: 3px solid black;
+}
+.pharmacy h2 {
+  font-size: 20px;
+  color: brown;
+}
+.container-pharmacy {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.img img {
+  width: 35vw;
+  height: 40vh;
+}
 
- /* -----------------GAUTAM CODE ENDS HERE--------------------- */
+/* -----------------GAUTAM CODE ENDS HERE--------------------- */
 
- /* -----------------SARULATHA CODE STARTS HERE--------------------- */
- /* Login Form CSS */
-.login-form{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-  .login-form h3, .login-form .button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 0;
-  }
-  .login-form .content{
-    padding: 20px;
-    border: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 6px;
-  }
-  .login-form .input{
-    padding: 10px;
-  }
-  .login-form .input input{
-    padding: 4px;
-  }
-  .login-form .flex{
-    display: flex;
-    gap: 30px;
-  }
-  .login-form button{
-    padding: 5px 10px;
-    background-color:#fafad2;
-  }
-  .login-form button:hover{
-    background-color: burlywood;
-  }
-  
- /* -----------------SARULATHA CODE ENDS HERE--------------------- */
+/* -----------------SARULATHA CODE STARTS HERE--------------------- */
+/* Login Form CSS */
+.login-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.login-form h3,
+.login-form .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.login-form .content {
+  padding: 20px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+.login-form .input {
+  padding: 10px;
+}
+.login-form .input input {
+  padding: 4px;
+}
+.login-form .flex {
+  display: flex;
+  gap: 30px;
+}
+.login-form button {
+  padding: 5px 10px;
+  background-color: #fafad2;
+}
+.login-form button:hover {
+  background-color: burlywood;
+}
 
- /* ----- GANESH DESIGN STARTS HERE -----*/
+/* -----------------SARULATHA CODE ENDS HERE--------------------- */
 
-  
+/* ----- GANESH DESIGN STARTS HERE -----*/
 
-  
 .projectTask {
   margin-top: 2rem;
   padding: 1rem;
@@ -590,59 +587,53 @@ hr{
   border: 2px solid black;
 }
 
-<<<<<<< HEAD
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
 /* Hemalatha code starts here*/
-.grocery-container{
-    padding: 10px;
-    border: 2px solid rgb(106, 159, 220);
-    margin: 10px auto;
-    width: fit-content;
-    display: flex;
-  }
-  .grocery-heading{
-    text-align: center;
-    padding-top: 20px;
-  }
-  .home-cont1 {
-    margin-top: 60px;
-    font-size: 50px;
-    font-weight: bold;
-    color: rgba(25, 2, 94, 0.644);
-  }
-  .home-cont2 {
-    margin-top: 30px;
-    font-size: 50px;
-    font-weight: bold;
-    color: #dd5e89;
-  }
-  .home-cont3 {
-    margin-top: 30px;
-    font-size: 20px;
-    color: rgba(25, 2, 94, 0.644);
-  }
-  /* Hemaltha code ends here */
-=======
+.grocery-container {
+  padding: 10px;
+  border: 2px solid rgb(106, 159, 220);
+  margin: 10px auto;
+  width: fit-content;
+  display: flex;
+}
+.grocery-heading {
+  text-align: center;
+  padding-top: 20px;
+}
+.home-cont1 {
+  margin-top: 60px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(25, 2, 94, 0.644);
+}
+.home-cont2 {
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #dd5e89;
+}
+.home-cont3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgba(25, 2, 94, 0.644);
+}
+/* Hemaltha code ends here */
+
 .projectTask h2 {
   font-size: 1.8rem;
   color: #555;
 }
 
 .abstractTask p {
- 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.8rem;
   padding-bottom: 1rem;
-  
 }
 
 .abstractTask h3 {
-  
   font-size: 1.1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
 }
-
 
 .gridTask {
   display: grid;
@@ -662,23 +653,20 @@ hr{
   font-size: 1.8rem;
   color: #555;
 }
-.projectTask h2{
+.projectTask h2 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.ssDivTask h3{
+.ssDivTask h3 {
   font-size: 1.1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
-.ftrDivTask h4{
+.ftrDivTask h4 {
   margin-left: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 /* ----- GANESH DESIGN ENDS HERE -----*/
-
 
 /* aathmiga code starts */
 .container-event {
@@ -689,68 +677,61 @@ hr{
   padding: 30px;
   background-color: #fff;
   border-radius: 20px;
-  margin-top: 50px;   
-  
+  margin-top: 50px;
 }
-.heading-event{
+.heading-event {
   background-color: rgb(237, 210, 219);
   margin: 10px;
   padding: 20px;
   border-radius: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   text-align: center;
 }
-.img-grid img{
+.img-grid img {
   height: 120px;
   width: 170px;
   border-radius: 20px;
   padding: 3px;
 }
-.service-event{
- display: flex;
+.service-event {
+  display: flex;
 }
-.specifications  {
+.specifications {
   padding-left: 10px;
 }
-.specifications ul li{
+.specifications ul li {
   margin-left: 40px;
   margin-right: 25px;
   line-height: 22px;
 }
 /* aathmiga code ends */
 
- /* -----------------SWETHA CODE STARTS HERE--------------------- */
- .background{
-
-  
-  width:80%;
+/* -----------------SWETHA CODE STARTS HERE--------------------- */
+.background {
+  width: 80%;
   height: 80%;
   border: 1px solid black;
   margin-left: 20px;
 
-   display: grid;
+  display: grid;
   grid-template-columns: auto auto;
-
 }
-.text{
-
+.text {
   margin-top: 35%;
-  margin-left:2%;
+  margin-left: 2%;
 }
-.image img{
-
+.image img {
   width: 650px;
   height: 450px;
   margin-top: 20px;
   margin-left: 40px;
-
 }
 
- /* -----------------SWETHA CODE ENDS HERE--------------------- */
+/* -----------------SWETHA CODE ENDS HERE--------------------- */
 
 /* ------ Shreemathi Code starts here -----*/
-.home-content{
+.home-content {
   text-align: center;
   margin-top: 20px;
   margin-left: 320px;
@@ -758,64 +739,59 @@ hr{
   height: 50%;
   border: 2px solid gray;
 }
-.home-content h3{
+.home-content h3 {
   font-size: 20px;
 }
-.home-content h2{
+.home-content h2 {
   padding-top: 10px;
   font-size: 25px;
   color: mediumslateblue;
 }
-.home{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1px;
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1px;
 }
-.home .image{
-    flex: 1 1 40rem;
+.home .image {
+  flex: 1 1 40rem;
 }
-.home .image img{
-    width: 50%;
-    height: 60%;
+.home .image img {
+  width: 50%;
+  height: 60%;
 }
-.home .content{
-    flex: 1 1 40rem;
+.home .content {
+  flex: 1 1 40rem;
 }
-.home .content h1{
-    font-weight: bolder;
-    font-size: 40px;
-    color: mediumslateblue;
+.home .content h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: mediumslateblue;
 }
-.home .content h3{
-    align-items: center;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--black);
-    line-height: 1.8;
-    text-shadow: var(--text-shadow);
+.home .content h3 {
+  align-items: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--black);
+  line-height: 1.8;
+  text-shadow: var(--text-shadow);
 }
-.home .content p{
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: var(--black);
-    line-height: 1.8;
-    padding: 10px 0;
+.home .content p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--black);
+  line-height: 1.8;
+  padding: 10px 0;
 }
-.btn{
+.btn {
   text-decoration: none;
   color: black;
   border: 2px solid mediumslateblue;
   padding: 3px;
 }
-.btn:hover{
+.btn:hover {
   background-color: aliceblue;
   border: 2px solid black;
 }
 
 /* ------ Shreemathi Code Ends here -----*/
-
-
->>>>>>> origin/main
-
-
