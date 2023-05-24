@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .title {
@@ -71,3 +72,162 @@ P{
   }
 
   /* --------END */
+
+
+  /* ---------------------------- KIRAN CODE STARTS HERE ------------------------- */
+
+:root {
+    --buttonBackground: rgb(29, 106, 193);
+    --white: rgb(255, 255, 255);
+    --head: rgb(191, 53, 53);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root{
+    --buttonBackground : rgb(35, 6, 124);
+    --head: rgb(222, 8, 8);
+  }
+}
+
+#mainSection {
+    padding: 2rem 0;
+    overflow-x: hidden;
+    border: 0.2rem solid var(--buttonBackground);
+    margin:2rem;
+    position: absolute;
+}
+
+hr{
+    color: var(--buttonBackground);
+}
+
+.containerSection {
+    max-width: 140rem;
+}
+
+.mainHeader {
+    padding: 2rem 3rem;
+}
+
+#mainSection span, .description span {
+    color: var(--head);
+    font-weight: 900;
+}
+
+#mainSection .mainHeader{
+    color: var(--buttonBackground);
+}
+
+/* Registration Data section */
+
+.dataSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 20% 30% 20% 30%;
+}
+
+.mainSection{
+    width:100%;
+    height: 100%;
+    position: relative;
+    padding: 0 2rem;
+}
+
+.description{
+    font-weight: 900;
+    color: var(--buttonBackground);
+    font-size: 1.1rem;
+}
+
+.mainSection img{
+    width: 10rem;
+}
+
+/* Category section */
+
+.categorySection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 0 2rem;
+}
+
+.categorySection img{
+    width: 100%;
+    height: 18rem;
+}
+
+.categorySection .description p{
+    text-align: left;
+    padding: 1.2rem 0;
+    font-size: 1.2rem;
+}
+
+
+/* Order section */
+
+.orderSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 1rem;
+}
+
+.orderSection .orderImage img{
+    width: 100%;
+    height: 15rem;
+}
+
+.orderSection .orderImage{
+    border-right: 0.1rem solid var(--buttonBackground) ;
+}
+
+.orderDescription  {
+    display: flex;
+    justify-content: center;
+}
+
+.overviewData{
+    margin: 0 2rem;
+}
+
+.overviewData ul li{
+    padding: 1.6rem 0;
+    font-size: 1.2rem;
+}
+
+#endDetails{
+    display: flex;
+    justify-content: end;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1;
+}
+
+.scrollBtn {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--buttonBackground);
+    color: var(--white);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+}
+
+.scrollToTop i {
+    position:absolute;
+}
+
+/* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
