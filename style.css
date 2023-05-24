@@ -51,3 +51,23 @@ P{
     cursor: pointer;
 }
 /* DHIVYA CODE ENDS  */
+
+/* ---------Manikandan S Code */
+
+.box{
+    width: 60%;
+    height: 200px;
+    margin:auto;
+    border: 2px solid black;
+  }
+  .box h2{
+    text-align: center;
+  }
+  .box h3{
+    text-align: center;
+  }
+  .div{
+    padding: 25px;
+  }
+
+  /* --------END */
