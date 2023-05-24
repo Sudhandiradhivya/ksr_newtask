@@ -120,6 +120,243 @@ P{
   /* --------END */
 
 
+  /* ----------- DINESH STYLING SECTION STARTS HERE ----------- */
+
+  :root {
+    --green: #179595;
+    --heading : #969f20;
+    --light-green: #c1f3f3;
+    --border: 0.1rem solid var(--green);
+    --white: #fff;
+    --box-shadow : 8px 6px 18px #888888;
+  }
+  
+  .dk-container {
+    background-color: var(--light-green);
+    border: var(--border);
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+  }
+  
+  .dk-heading {
+    background-color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    border: var(--border);
+    margin-bottom: 1rem;
+    animation: 5s smart infinite;
+  }
+  
+  .dk-content-heading {
+    color: var(--heading);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  
+  .dk-content-container {
+    border-bottom: var(--border);
+    margin-bottom: 2rem;
+  }
+  
+  .dk-content-description li {
+    font-size: 1.2rem;
+    list-style: inside;
+    line-height: 2rem;
+  }
+  
+  .dk-buttons {
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .dk-btn {
+    border: var(--border);
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    color: var(--green);
+    letter-spacing: .1rem;
+    background-color: var(--white);
+    font-size: 1rem;
+  }
+  
+  .dk-btn:hover {
+    color: var(--white);
+    background-color: var(--green);
+  }
+  
+  .dk-subtitle {
+    font-size: 1.5rem;
+    color: var(--green);
+    border: var(--border);
+    background-color: var(--white);
+    margin: 1rem auto;
+    text-align: center;
+    padding: .6rem;
+    border-radius: 5rem;
+    width: 40%;
+  }
+  
+  .dk-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 70%;
+    margin: 0px 8%;
+    margin-bottom: 3rem;
+  }
+  
+  .dk-segments {
+    position: relative;
+    height: 15rem;
+    width: 20rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .dk-segments img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .dk-segments:hover img {
+    transform: scale(0.95);
+  }
+  
+  @keyframes smart {
+    0% {color: maroon;}
+  
+    25% {color: green;}
+  
+    50% {color: orangered;}
+  
+    75% {color: yellowgreen;}
+  
+    100% {color: darkorchid;}
+  }
+  
+  /* ----------- DINESH STYLING SECTION ENDS HERE ----------- */
+
+
+  /*------------------------- VIGNESH CODE STARTS HERE ---------------------------*/
+
+.box1{
+    border: .1rem solid black;
+    padding: 1rem;
+    margin: 1em auto;
+  }
+  .topic{
+    background-color: teal;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .register {
+    width: 400px;
+    padding: 30px 30px 50px 30px;
+    background:darkcyan;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    /* height: 530px; */
+    margin: auto;
+  }
+  .register form i{
+    margin-left: 15px;
+  }
+  .register header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* .register form {
+    margin: 40px 0;
+  } */
+  
+  form .field {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  form .field .input-area {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  
+  form input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    padding: 0 45px;
+    font-size: 18px;
+    background: none;
+    caret-color: #5372F0;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+    margin-bottom: 20px;
+  }
+  
+  form .field input:focus,
+  form .field.valid input {
+    border-color: #5372F0;
+  }
+  
+  
+  .field .input-area i {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+  
+  .input-area .icon {
+    left: 15px;
+    color: #bfbfbf;
+    transition: color 0.2s ease;
+  }
+  
+  
+  form input:focus~.icon,
+  form .field.valid .icon {
+    color: #5372F0;
+  }
+  
+  
+  
+  form input::placeholder {
+    color: #bfbfbf;
+    font-size: 17px;
+  }
+  
+  button{
+    height: 50px;
+    /* margin-top: 30px; */
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5372F0;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 300px;
+  }
+  
+  /*------------------------- VIGNESH CODE ENDS HERE ---------------------------*/
+  
+
+
   /* ---------------------------- KIRAN CODE STARTS HERE ------------------------- */
 
 :root {
@@ -255,25 +492,21 @@ hr{
 }
 
 #scrollToTop {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 1;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
 }
 
 .scrollBtn {
-    width: 3rem;
-    height: 3rem;
-    background-color: var(--buttonBackground);
-    color: var(--white);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-weight: 900;
-}
-
-.scrollToTop i {
-    position:absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--buttonBackground);
+  color: var(--white);
+  border-radius: 50%;
+  font-weight: 900;
+  display: grid;
+  place-items: center;
 }
 
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
@@ -341,3 +574,5 @@ hr{
   }
   
  /* -----------------SARULATHA CODE ENDS HERE--------------------- */
+
+
