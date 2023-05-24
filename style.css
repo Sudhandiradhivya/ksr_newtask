@@ -719,6 +719,46 @@ hr{
 /* ----- GANESH DESIGN ENDS HERE -----*/
 
 
+/* aathmiga code starts */
+.container-event {
+  border: 2px solid rgb(213, 212, 212);
+  padding: 1rem;
+  margin: auto;
+  width: fit-content;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 50px;   
+  
+}
+.heading-event{
+  background-color: rgb(237, 210, 219);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.img-grid img{
+  height: 120px;
+  width: 170px;
+  border-radius: 20px;
+  padding: 3px;
+}
+.service-event{
+ display: flex;
+}
+.specifications  {
+  padding-left: 10px;
+}
+.specifications ul li{
+  margin-left: 40px;
+  margin-right: 25px;
+  line-height: 22px;
+}
+/* aathmiga code ends */
+
  /* -----------------SWETHA CODE STARTS HERE--------------------- */
  .background{
 
@@ -748,6 +788,71 @@ hr{
 
  /* -----------------SWETHA CODE ENDS HERE--------------------- */
 
+/* ------ Shreemathi Code starts here -----*/
+.home-content{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 320px;
+  width: 50%;
+  height: 50%;
+  border: 2px solid gray;
+}
+.home-content h3{
+  font-size: 20px;
+}
+.home-content h2{
+  padding-top: 10px;
+  font-size: 25px;
+  color: mediumslateblue;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 50%;
+    height: 60%;
+}
+.home .content{
+    flex: 1 1 40rem;
+}
+.home .content h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: mediumslateblue;
+}
+.home .content h3{
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+}
+.home .content p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--black);
+    line-height: 1.8;
+    padding: 10px 0;
+}
+.btn{
+  text-decoration: none;
+  color: black;
+  border: 2px solid mediumslateblue;
+  padding: 3px;
+}
+.btn:hover{
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+
+/* ------ Shreemathi Code Ends here -----*/
 
 
 
