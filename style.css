@@ -59,94 +59,94 @@
 }
 /* ----- Sree Ganesh DESIGN ENDS HERE -----*/
 
-
-.title-obs h1,.title-obs{
-    text-align: center;
-    background-color: rgb(175, 230, 234);
-    padding: 10px;
-  }
-  .obs-content{
-    border: 3px solid black;
-    margin: 30px;
-    
-  }
-  .imageOFBooks img{
-    height: 520px;
-    width: 300px;
-    padding: 10px;
-  }
-  .bookDetails h3{
-    padding-top: 20px;
-    font-size: large;
-    font-style: normal;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-family:cursive;
-    padding-bottom: 30px;
-  }
-  .imageOFBooks{
-    display: flex;
-  }
-  .bookTitle p{
-    padding: 10px;
-    text-align: center;
-    font-size:30px;
-    font-family: cursive;
-  }
-  .table{
-    text-align:left;
-    padding: 6px;
-    font-family: cursive;
-  }
-  .purseDetail img{
-    width: 700px;
-    height: 100px;
-    padding-left:25px;
-    margin-left: 350px;
-  }
-  /* ----- Sree Ganesh DESIGN ENDS HERE -----*/
-
- /*------Manya styles starts here-------*/
-.border{
-  border:2px solid rgb(43, 39, 39);
-  margin:3em;
+.title-obs h1,
+.title-obs {
+  text-align: center;
+  background-color: rgb(175, 230, 234);
+  padding: 10px;
 }
-.laptop-heading{
+.obs-content {
+  border: 3px solid black;
+  margin: 30px;
+}
+.imageOFBooks img {
+  height: 520px;
+  width: 300px;
+  padding: 10px;
+}
+.bookDetails h3 {
+  padding-top: 20px;
+  font-size: large;
+  font-style: normal;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: cursive;
+  padding-bottom: 30px;
+}
+.imageOFBooks {
+  display: flex;
+}
+.bookTitle p {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+.table {
+  text-align: left;
+  padding: 6px;
+  font-family: cursive;
+}
+.purseDetail img {
+  width: 700px;
+  height: 100px;
+  padding-left: 25px;
+  margin-left: 350px;
+}
+/* ----- Sree Ganesh DESIGN ENDS HERE -----*/
+
+/*------Manya styles starts here-------*/
+.border {
+  border: 2px solid rgb(43, 39, 39);
+  margin: 3em;
+}
+.laptop-heading {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;  
+  padding-bottom: 20px;
 }
 .aboutLaptop {
-  margin:7rem;
+  margin: 7rem;
   margin-top: 20px;
   margin-bottom: 0px;
   justify-items: center;
 }
-.aboutLaptop p,h1{
-  font-family: 'Amiri', serif;
+.aboutLaptop p,
+h1 {
+  font-family: "Amiri", serif;
 }
-.aboutLaptop p{
+.aboutLaptop p {
   padding-top: 8px;
   padding-bottom: 30px;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 35px;
   text-align: justify;
 }
-.shop-by-brand{
+.shop-by-brand {
   margin: 1em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  gap:2rem;
+  gap: 2rem;
   padding-bottom: 30px;
   margin-top: 50px;
 }
-.brand-logo{
+.brand-logo {
   width: 250px;
   height: 200px;
-  background-color:snow;
+  background-color: snow;
   border-radius: 15px;
-  box-shadow:0px 0px 5px 2px  rgb(110, 128, 133);
+  box-shadow: 0px 0px 5px 2px rgb(110, 128, 133);
   text-align: center;
 }
 /*-------End---------*/
@@ -179,18 +179,11 @@
   width: 15rem;
 }
 
-
 .content P {
   margin-left: 50px;
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
-
-p{
-    margin-left: 50px;
-    margin-top: 20px;
-    font-size: 18px;
-
 }
 
 .image-container span {
@@ -476,18 +469,16 @@ button {
 }
 
 #mainSection {
-
   padding: 2rem 0;
   overflow-x: hidden;
   border: 0.2rem solid var(--buttonBackground);
   margin: 2rem;
 
-    padding: 2rem 0;
-    overflow-x: hidden;
-    border: 0.2rem solid var(--buttonBackground);
-    margin:2rem;
-    /* position: absolute; */
-
+  padding: 2rem 0;
+  overflow-x: hidden;
+  border: 0.2rem solid var(--buttonBackground);
+  margin: 2rem;
+  /* position: absolute; */
 }
 
 hr {
@@ -728,8 +719,6 @@ hr {
 }
 /* Hemaltha code ends here */
 
-
-
 .projectTask h2 {
   font-size: 1.8rem;
   color: #555;
@@ -906,4 +895,3 @@ hr {
 }
 
 /* ------ Shreemathi Code Ends here -----*/
-
