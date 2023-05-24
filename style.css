@@ -253,7 +253,6 @@ P{
     overflow-x: hidden;
     border: 0.2rem solid var(--buttonBackground);
     margin:2rem;
-    position: absolute;
 }
 
 hr{
