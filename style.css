@@ -120,6 +120,130 @@ P{
   /* --------END */
 
 
+  /* ----------- DINESH STYLING SECTION STARTS HERE ----------- */
+
+  :root {
+    --green: #179595;
+    --heading : #969f20;
+    --light-green: #c1f3f3;
+    --border: 0.1rem solid var(--green);
+    --white: #fff;
+    --box-shadow : 8px 6px 18px #888888;
+  }
+  
+  .dk-container {
+    background-color: var(--light-green);
+    border: var(--border);
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+  }
+  
+  .dk-heading {
+    background-color: var(--white);
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    border: var(--border);
+    margin-bottom: 1rem;
+    animation: 5s smart infinite;
+  }
+  
+  .dk-content-heading {
+    color: var(--heading);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  
+  .dk-content-container {
+    border-bottom: var(--border);
+    margin-bottom: 2rem;
+  }
+  
+  .dk-content-description li {
+    font-size: 1.2rem;
+    list-style: inside;
+    line-height: 2rem;
+  }
+  
+  .dk-buttons {
+    width: 100%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .dk-btn {
+    border: var(--border);
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    color: var(--green);
+    letter-spacing: .1rem;
+    background-color: var(--white);
+    font-size: 1rem;
+  }
+  
+  .dk-btn:hover {
+    color: var(--white);
+    background-color: var(--green);
+  }
+  
+  .dk-subtitle {
+    font-size: 1.5rem;
+    color: var(--green);
+    border: var(--border);
+    background-color: var(--white);
+    margin: 1rem auto;
+    text-align: center;
+    padding: .6rem;
+    border-radius: 5rem;
+    width: 40%;
+  }
+  
+  .dk-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 70%;
+    margin: 0px 8%;
+    margin-bottom: 3rem;
+  }
+  
+  .dk-segments {
+    position: relative;
+    height: 15rem;
+    width: 20rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .dk-segments img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .dk-segments:hover img {
+    transform: scale(0.95);
+  }
+  
+  @keyframes smart {
+    0% {color: maroon;}
+  
+    25% {color: green;}
+  
+    50% {color: orangered;}
+  
+    75% {color: yellowgreen;}
+  
+    100% {color: darkorchid;}
+  }
+  
+  /* ----------- DINESH STYLING SECTION ENDS HERE ----------- */
+
+
   /*------------------------- VIGNESH CODE STARTS HERE ---------------------------*/
 
 .box1{
@@ -450,4 +574,5 @@ hr{
   }
   
  /* -----------------SARULATHA CODE ENDS HERE--------------------- */
+
 
