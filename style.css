@@ -209,25 +209,21 @@ hr{
 }
 
 #scrollToTop {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 1;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
 }
 
 .scrollBtn {
-    width: 3rem;
-    height: 3rem;
-    background-color: var(--buttonBackground);
-    color: var(--white);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-weight: 900;
-}
-
-.scrollToTop i {
-    position:absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--buttonBackground);
+  color: var(--white);
+  border-radius: 50%;
+  font-weight: 900;
+  display: grid;
+  place-items: center;
 }
 
 /* ---------------------------- KIRAN CODE ENDS HERE ------------------------- */
