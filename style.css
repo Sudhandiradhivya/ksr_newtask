@@ -300,3 +300,44 @@ hr{
  } 
 
  /* -----------------GAUTAM CODE ENDS HERE--------------------- */
+
+ /* -----------------SARULATHA CODE STARTS HERE--------------------- */
+ /* Login Form CSS */
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .login-form h3, .login-form .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  .login-form .content{
+    padding: 20px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+  }
+  .login-form .input{
+    padding: 10px;
+  }
+  .login-form .input input{
+    padding: 4px;
+  }
+  .login-form .flex{
+    display: flex;
+    gap: 30px;
+  }
+  .login-form button{
+    padding: 5px 10px;
+    background-color:#fafad2;
+  }
+  .login-form button:hover{
+    background-color: burlywood;
+  }
+  
+ /* -----------------SARULATHA CODE ENDS HERE--------------------- */
