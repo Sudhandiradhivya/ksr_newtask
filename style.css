@@ -10,6 +10,52 @@
     letter-spacing: .2rem;
     margin-bottom: 1rem;
 }
+/* ----- Sree Ganesh DESIGN Starts HERE -----*/
+.title-obs h1,.title-obs{
+    text-align: center;
+    background-color: rgb(175, 230, 234);
+    padding: 10px;
+  }
+  .obs-content{
+    border: 3px solid black;
+    margin: 30px;
+    
+  }
+  .imageOFBooks img{
+    height: 520px;
+    width: 300px;
+    padding: 10px;
+  }
+  .bookDetails h3{
+    padding-top: 20px;
+    font-size: large;
+    font-style: normal;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family:cursive;
+    padding-bottom: 30px;
+  }
+  .imageOFBooks{
+    display: flex;
+  }
+  .bookTitle p{
+    padding: 10px;
+    text-align: center;
+    font-size:30px;
+    font-family: cursive;
+  }
+  .table{
+    text-align:left;
+    padding: 6px;
+    font-family: cursive;
+  }
+  .purseDetail img{
+    width: 700px;
+    height: 100px;
+    padding-left:25px;
+    margin-left: 350px;
+  }
+  /* ----- Sree Ganesh DESIGN ENDS HERE -----*/
 /* DHIVYA CODE STARTS  */
 .container {
     border: .1rem solid black;
