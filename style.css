@@ -926,3 +926,34 @@ hr {
   max-width: 75vh;
 }
 /* ------ Pranav Ram Code Ends here -----*/
+/* subramani code starts here */
+h2{
+  text-align: center;
+}
+
+.education{
+  display: grid;
+  grid-template-columns: 50% 50%;
+ background-color: #fbe0e0;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  /* padding-left: 30%; */
+  border: 1px solid black;
+  width: fit-content;
+  padding: 2%;
+  border-radius: 18px;
+}
+.management{
+  padding-left: 10%;
+}
+.management img{
+  border-radius: 50px;
+
+}
+.system p{
+  text-align: left;
+  margin-top: 2%;
+  font-size: 18px;
+}
+/* subramani code ends here */
